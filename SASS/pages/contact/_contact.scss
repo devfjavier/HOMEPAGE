@@ -1,0 +1,106 @@
+/* 
+
+PAGINA CONTACTO
+
+*/
+
+.contacto {
+    padding-top: var(--big-space);
+    margin-bottom: calc(var(--big-space) * 2);
+}
+
+.contacto .titulo {
+    font-size: var(--h1-font-size);
+    color: var(--tittle-color);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.contacto div .titulo {
+    font-size: var(--h3-font-size);
+    text-align: left;
+    margin-bottom: 0.9rem;
+}
+
+.contacto address .titulo {
+    font-size: var(--h4-font-size);
+    text-align: left;
+    font-style: normal;
+}
+
+.contacto address .texto {
+    margin: 0;
+    font-size: var(--small-font-size);
+}
+
+.contacto address .texto a {
+    color: var(--green-color);
+    font-style: normal;
+}
+
+.contacto .contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--big-space);
+}
+
+.contacto .contenedor .map-ubcation {
+    width: 100%;
+}
+
+.contacto .contenedor .titulo,
+.contacto .contenedor .texto {
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .contacto .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--big-space);
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+    
+    .contacto .contenedor div {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .contacto .contenedor .titulo,
+    .contacto .contenedor .texto {
+    text-align: left;
+}
+}
+
+.contacto .contenedor address {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: var(--big-space);
+}
+
+.contacto .contenedor address div {
+    grid-column: initial;
+    grid-row: initial;
+}
+
+.contacto .contenedor address .texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--medium-space);
+}
+
+@media screen and (min-width: 900px) {
+    .contacto .contenedor address .texto {
+        justify-content: initial;
+    }
+    
+}
+
+.contacto .contenedor address .icono img {
+    height: var(--normal-font-size);
+    display: block;
+}

@@ -1,0 +1,54 @@
+/*
+
+SECCION BANNER PRINCIPAL 
+
+*/
+
+.banner-principal .contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--primary-color);
+    align-items: center;
+    height: inherit;
+}
+
+@media screen and (min-width: 900px) {
+    .banner-principal .contenedor {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+    }
+}
+
+.banner-principal .contenedor .contenido {
+    padding: var(--big-space);
+    text-align: center;
+}
+
+.banner-principal .titulo {
+    color: var(--green-color);
+    font-size: var(--h1-font-size);
+}
+
+.banner-principal .texto {
+    color: var(--green-color);
+    font-size: var(--big-font-size);
+}
+
+.banner-principal .contenedor .contenedor-imagen img {
+    display: block;
+    width: 100%;
+}
+
+.banner-principal .boton-enlace {
+    color: var(--primary-color-alt);
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    font-weight: 500;
+}
+
+.banner-principal .boton-enlace:hover {
+    color: var(--green-color);
+    background-color: var(--primary-color-alt);
+    border-color: var(--primary-color-alt);
+}

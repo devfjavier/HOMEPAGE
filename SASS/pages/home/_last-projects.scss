@@ -1,0 +1,31 @@
+/*
+
+SECCION ULTIMOS PROYECTOS
+
+*/
+
+.ultimos-proyectos {
+    text-align: center;
+}
+
+.ultimos-proyectos .titulo {
+    color: var(--tittle-color);
+    font-size: var(--h2-font-size);
+    margin: 0;
+    padding-top: var(--big-space);
+    padding-bottom: var(--big-space);
+}
+
+.ultimos-proyectos .contenedor {
+    display: grid;
+    gap: var(--big-space);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+@media screen and (min-width: 900px) {
+    .ultimos-proyectos .contenedor {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+}

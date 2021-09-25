@@ -1,0 +1,56 @@
+.ultimos-proyectos .contenedor .proyecto {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ultimos-proyectos .proyecto article {
+    position: relative;
+}
+
+.ultimos-proyectos .proyecto .titulo{
+    color: var(--green-color);
+    font-size: var(--h4-font-size);
+    margin: 0;
+    padding: var(--medium-space);
+    padding-bottom: 0;
+}
+
+.ultimos-proyectos .proyecto .texto {
+    color: var(--green-color);
+    font-size: var(--smaller-font-size);
+}
+
+.ultimos-proyectos .proyecto .contenido {
+    position: absolute;
+    display: grid;
+    gap: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60, 2, 175, 0.6);
+    opacity: 0;
+    transition: 0.27s linear;
+    align-items: center;
+}
+
+.ultimos-proyectos .proyecto .contenido:hover {
+    opacity: 1;
+}
+
+.ultimos-proyectos .proyecto .contenido .titulo,
+.ultimos-proyectos .proyecto .contenido .texto {
+    margin: 0;
+    padding: 0;
+}
+
+.ultimos-proyectos .proyecto .contenedor-imagen {
+    z-index: -10;
+}
+
+.ultimos-proyectos .proyecto .contenedor-imagen img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: initial;
+}

@@ -1,0 +1,30 @@
+/* 
+
+PAGINA PROYECTOS
+
+*/
+
+.todos-los-proyectos {
+    text-align: center;
+}
+
+
+.todos-los-proyectos .titulo {
+    font-size: var(--h1-font-size);
+    color: var(--tittle-color);
+    margin: 0;
+    padding-top: calc(var(--big-space / 2));
+    padding-bottom: var(--big-font-size);
+}
+
+.todos-los-proyectos .contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--big-font-size);
+}
+
+@media screen and (min-width: 900px) {
+    .todos-los-proyectos .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
