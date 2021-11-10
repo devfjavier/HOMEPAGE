@@ -9,13 +9,18 @@
     --smaller-font-size: 1.6rem;
     --big-space: 2rem;
     --medium-space: .5rem;
-    --primary-color: rgb(27, 54, 1);
-    --primary-color-alt: black;
-    --bg-color: rgb(27, 27, 27);
-    --green-color: rgb(0, 255, 0);
-    --tittle-color: rgb(227, 227, 1);
-    --text-color: rgb(142, 175, 0);
+    --primary-color: #031a03;
+    --primary-color-alt: #031a1aee;
+    --bg-color: #191f19;
+    --green-color: #18d318;
+    --tittle-color: #e6fce6;
+    --text-color: #cef9ce;
     --header-heigth: 5rem;
+    //color base con 9 shades y 9 tints:
+    //#22E622 primario
+    //#262E26 gris
+    //#22e6e6 secundario
+
 }
 
 *, *::before, *::after {

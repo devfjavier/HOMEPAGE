@@ -6,25 +6,21 @@ SECCION QUIERES TRABAJAR CON NOSOTROS
 
 .trabaja-con-nosotros {
     text-align: center;
-}
-
-.trabaja-con-nosotros .titulo {
-    color: var(--tittle-color);
-    font-size: var(--h2-font-size);
-}
-
-.trabaja-con-nosotros .texto {
-    color: var(--text-color);
-    font-size: var(--normal-font-size);
-}
-
-.trabaja-con-nosotros .boton-enlace {
-    color: var(--green-color);
-    border-color: var(--primary-color);
-    background-color: var(--primary-color);
-    font-weight: 500;
-}
-
-.trabaja-con-nosotros .boton-enlace:hover {
-    background-color: var(--primary-color-alt);
+    
+    .titulo {
+        color: var(--tittle-color);
+        font-size: var(--h2-font-size);
+    }
+    
+    .texto {
+        color: var(--text-color);
+        font-size: var(--normal-font-size);
+    }
+    
+    .boton-enlace {
+        color: var(--bg-color);
+        border-color: var(--primary-color);
+        background-color: var(--tittle-color);
+        font-weight: 500;
+    }
 }
