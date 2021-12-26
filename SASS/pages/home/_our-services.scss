@@ -6,40 +6,40 @@ SECCION NUESTROS SERVICIOS
 
 .nuestros-servicios {
     text-align: center;
-}
-  
-.nuestros-servicios .titulo {
-    color: var(--tittle-color);
-    font-size: var(--h2-font-size);
-}
-  
-.nuestros-servicios .texto {
-    color: var(--text-color);
-    font-size: var(--small-font-size);
-}
-  
-.nuestros-servicios .servicio .titulo {
-    color: var(--tittle-color);
-    font-size: var(--h3-font-size);
-}
-  
-.nuestros-servicios .contenedor {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-  
-@media screen and (min-width: 900px) {
-    .nuestros-servicios .contenedor {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+
+    .titulo {
+        color: var(--tittle-color);
+        font-size: var(--h2-font-size);
     }
-    
+      
+    .texto {
+        color: var(--text-color);
+        font-size: var(--small-font-size);
+    }
+      
+    .servicio  {
+        .titulo {
+            color: var(--tittle-color);
+            font-size: var(--h3-font-size);
+        }
+
+        .icono img {
+            display: block;
+            width: 27%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+      
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        @media screen and (min-width: 900px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+    }
 }
   
-.nuestros-servicios .servicio .icono img {
-    display: block;
-    width: 27%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
