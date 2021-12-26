@@ -20,12 +20,11 @@ SECCION ULTIMOS PROYECTOS
         gap: var(--big-space);
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
-    }
-    
-    @media screen and (min-width: 900px) {
-        .contenedor {
+
+        @media screen and (min-width: 900px) {
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 1fr;
         }
     }
+
 }
