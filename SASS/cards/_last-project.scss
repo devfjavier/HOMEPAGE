@@ -31,26 +31,25 @@
         opacity: 0;
         transition: 0.27s linear;
         align-items: center;
+
+        &:hover {
+            opacity: 1;
+        }
+        
+        & .titulo, & .texto {
+            margin: 0;
+            padding: 0;
+        }
     }
-    
-    .contenido:hover {
-        opacity: 1;
-    }
-    
-    .contenido .titulo,
-    .contenido .texto {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .contenedor-imagen {
+
+    .contenedor-img {
         z-index: -10;
-    }
-    
-    .contenedor-imagen img {
-        display: block;
-        width: 100%;
-        height: auto;
-        position: initial;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            position: initial;
+        }
     }
 }
