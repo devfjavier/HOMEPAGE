@@ -8,7 +8,7 @@ SECCION QUIERES TRABAJAR CON NOSOTROS
     text-align: center;
     
     .titulo {
-        color: var(--tittle-color);
+        color: var(--title-color);
         font-size: var(--h2-font-size);
     }
     
@@ -20,7 +20,7 @@ SECCION QUIERES TRABAJAR CON NOSOTROS
     .boton-enlace {
         color: var(--bg-color);
         border-color: var(--primary-color);
-        background-color: var(--tittle-color);
+        background-color: var(--title-color);
         font-weight: 500;
     }
 }
