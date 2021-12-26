@@ -119,30 +119,3 @@ HEADER
         }
     }    
 }
-
-
-
-/* boton para activar el menu desplegable */
-.boton-interruptor-menu {
-    display: block;
-    width: var(--header-heigth);
-    background-image: radial-gradient(rgb(12, 177, 177) 50%, green 75%);
-    grid-column: 3;
-    border-radius: 50%;
-    z-index: 99;
-    justify-self: end;
-
-    @media screen and (min-width: 900px) {
-        grid-column: 2;
-        display: none;
-    }
-    
-    &:hover {
-        background-image: radial-gradient(rgb(12, 177, 177) 45%, green 70%);    
-    }
-    
-    &:active {
-        background-image: radial-gradient(rgb(5, 126, 126) 40%, rgb(6, 90, 17) 75%);
-    }
-}
-
