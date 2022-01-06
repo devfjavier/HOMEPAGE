@@ -12,7 +12,7 @@ const LastProjects = () => {
                 <p className="texto">Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
-            <div className="contenedor-img"><img src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
+            <div className="contenedor-img"><img loading="lazy" src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
           </article>
         </a>
         <a className="proyecto" href="">
@@ -23,7 +23,7 @@ const LastProjects = () => {
                 <p className="texto">Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
-            <div className="contenedor-img"><img src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
+            <div className="contenedor-img"><img loading="lazy" src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
           </article>
         </a>
         <a className="proyecto" href="">
@@ -34,7 +34,7 @@ const LastProjects = () => {
                 <p className="texto">Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
-            <div className="contenedor-img"><img src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
+            <div className="contenedor-img"><img loading="lazy" src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
           </article>
         </a>
         <a className="proyecto" href="">
@@ -45,7 +45,7 @@ const LastProjects = () => {
                 <p className="texto">Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
-            <div className="contenedor-img"><img src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
+            <div className="contenedor-img"><img loading="lazy" src="https://images.unsplash.com/photo-1591696331096-c73fe847643d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""/></div>
           </article>
         </a>
       </div>

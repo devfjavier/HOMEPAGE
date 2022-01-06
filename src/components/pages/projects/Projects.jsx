@@ -12,7 +12,7 @@ const Projects = () => {
           {
             projects.map(id => 
               <article key={id} className="proyecto">
-                <div className="contenedor-img"><img src="https://raw.githubusercontent.com/devfjavier/Proyecto-de-EDsoft/master/src/images/proyecto.webp" alt=""/></div>
+                <div className="contenedor-img"><img loading="lazy" src="https://raw.githubusercontent.com/devfjavier/Proyecto-de-EDsoft/master/src/images/proyecto.webp" alt=""/></div>
                 <div className="contenido">
                   <h3 className="titulo">Proyecto</h3>
                   <p className="texto">Lorem ipsum dolor sit amet.</p>
