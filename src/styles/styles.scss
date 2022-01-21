@@ -1,5 +1,7 @@
 //config
-@use "config";
+@use "config/css-vars";
+@use "config/base-layout";
+@use "global";
 //sections
 @use "sections/header";
 @use "sections/footer";

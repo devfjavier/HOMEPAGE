@@ -1,0 +1,29 @@
+body {
+  padding-top: var(--header-heigth);
+  background-color: var(--bg-color);
+}
+.contenedor-seccion {
+  margin-bottom: 6.4rem;
+}
+.contenedor-seccion:not(.banner-principal, .sobre-nosotros) {
+  padding-left: 9.20%;
+  padding-right: 9.20%;
+}
+
+.titulo {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  margin-bottom: .9em;
+}
+
+.boton-enlace {
+  display: inline-block;
+  padding: 1rem;
+  border: 2px solid;
+  border-radius: 2rem;
+  font-size: var(--normal-font-size);
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}

@@ -8,79 +8,74 @@ PAGINA QUIENES SOMOS
 
 } */
 
-.quienes-somos .titulo {
+.quienes-somos {
+  .titulo {
     color: var(--title-color);
     font-size: var(--h1-font-size);
     text-align: center;
-}
+  }
 
-.quienes-somos .contenedor .titulo {
-    font-size: var(--h2-font-size);
-    text-align: left;
-    margin: 0;
-}
-
-.quienes-somos .contenedor .texto {
-    font-size: var(--normal-font-size);
-    color: var(--text-color);
-}
-
-.quienes-somos .contenedor {
+  .contenedor {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 4rem;
-}
 
-@media screen and (min-width: 900px) {
-    .quienes-somos .contenedor {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+    @media screen and (min-width: 900px) {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
-}
 
-.quienes-somos .contenedor article {
+    .titulo {
+      font-size: var(--h2-font-size);
+      text-align: left;
+    }
+    
+    .texto {
+      font-size: var(--normal-font-size);
+      color: var(--text-color);
+    }
+
+  }
+
+  article {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--big-space);
-}    
 
-@media screen and (min-width: 900px) {
-    .quienes-somos .contenedor article {
-        grid-template-columns: 1fr 1fr;
+    @media screen and (min-width: 900px) {
+      grid-template-columns: 1fr 1fr;
+
+      &:nth-child(even) div:first-child {
+        grid-column: 1;
+      }
+      
+      &:nth-child(even) div:last-child {
+        grid-column: 2;
+      }
     }
-}
 
-.quienes-somos .contenedor article div:first-child {
-    grid-row: 2;
-}
-
-.quienes-somos .contenedor article div:last-child {
-    grid-row: 1;
-}
-
-@media screen and (min-width: 900px) {
-    .quienes-somos .contenedor article div:first-child {
+    div:first-child {
+      grid-row: 2;
+      @media screen and (min-width: 900px) {
         grid-column: 2;
         grid-row: 1;
+      }
     }
     
-    .quienes-somos .contenedor article div:last-child {
+    div:last-child {
+      grid-row: 1;
+      @media screen and (min-width: 900px) {
         grid-column: 1;
         grid-row: 1;
+      }
     }
+  }
 
-    .quienes-somos .contenedor article:nth-child(even) div:first-child {
-        grid-column: 1;
-    }
-    
-    .quienes-somos .contenedor article:nth-child(even) div:last-child {
-        grid-column: 2;
-    }
-}
-.quienes-somos .contenedor .contenedor-img img {
+  .contenedor-img img {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 1rem;
-}   
+  }
+}
