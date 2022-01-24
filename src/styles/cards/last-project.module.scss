@@ -1,0 +1,44 @@
+.proyecto-enlace {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  
+  .descripcion {
+    position: absolute;
+    display: grid;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-alt);
+    opacity: 0;
+    transition: 0.27s linear;
+    align-items: center;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+    
+  .titulo{
+    color: var(--green-color);
+    font-size: var(--h4-font-size);
+    padding: var(--medium-space);
+    padding-bottom: 0;
+  }
+    
+  .texto {
+    color: var(--green-color);
+    font-size: var(--smaller-font-size);
+  }
+
+  .contenedor-img {
+    z-index: -10;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      position: initial;
+    }
+  }
+}
