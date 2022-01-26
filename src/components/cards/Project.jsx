@@ -1,8 +1,8 @@
 import styles from "../../styles/cards/project.module.scss"
 
-const Project = ({key}) => {
+const Project = () => {
   return (
-    <article key={key} className={styles.proyecto}>
+    <article className={styles.proyecto}>
       <div className={styles["contenedor-img"]}><img loading="lazy" src="https://raw.githubusercontent.com/devfjavier/Proyecto-de-EDsoft/master/src/images/proyecto.webp" alt=""/></div>
       <div className={styles.contenedor}>
         <h3 className={styles.titulo}>Proyecto</h3>
