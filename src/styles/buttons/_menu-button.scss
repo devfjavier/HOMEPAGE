@@ -3,43 +3,43 @@ boton hamburguesa para activar desactivar el menu despelgable
 */
 
 .boton-interruptor-menu {
-    all: unset;
-    position: fixed;
-    z-index: 99;
+  all: unset;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  width: var(--header-heigth);
+  height: var(--header-heigth);
+  &:hover {
+    cursor: pointer;
+  }
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+  .bi {
+    display: inline-block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
     top: 0;
-    right: 0;
-    width: var(--header-heigth);
-    height: var(--header-heigth);
-    &:hover {
-        cursor: pointer;
-    }
-    @media screen and (min-width: 900px) {
-        display: none;
-    }
-    .bi {
-        display: inline-block;
-        position: absolute;
-        width: inherit;
-        height: inherit;
-        top: 0;
-        left: 0;
-        fill: var(--title-color);
-        padding: calc(var(--header-heigth) * 0.1);
-        transition: .19s;
+    left: 0;
+    fill: var(--title-color);
+    padding: calc(var(--header-heigth) * 0.1);
+    transition: .19s;
+  }
+  .bi-x-lg {
+    filter: opacity(0);
+    transform: scale(50%) rotate(90deg);
+  }
+  &.esta-activo {
+    .bi-list {
+      filter: opacity(0);
+      transform: scale(50%) rotate(90deg);
     }
     .bi-x-lg {
-        opacity: 0;
-        transform: scale(50%) rotate(90deg);
+      filter: opacity(1);
+      transform: scale(100%) rotate(0deg);
     }
-    &.esta-activo {
-        .bi-list {
-            opacity: 0;
-            transform: scale(50%) rotate(90deg);
-        }
-        .bi-x-lg {
-            opacity: 1;
-            transform: scale(100%) rotate(0deg);
-        }
 
-    }
+  }
 }

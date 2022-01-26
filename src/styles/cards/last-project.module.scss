@@ -10,12 +10,12 @@
     width: 100%;
     height: 100%;
     background-color: var(--primary-color-alt);
-    opacity: 0;
-    transition: 0.27s linear;
+    filter: opacity(0);
+    transition: filter .27s linear;
     align-items: center;
-
+    
     &:hover {
-      opacity: 1;
+      filter: opacity(1);
     }
   }
     
