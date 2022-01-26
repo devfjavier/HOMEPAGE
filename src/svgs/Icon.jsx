@@ -1,4 +1,4 @@
-const Icon = ({name}) => {
+const Icon = ({ name, fill = "#fff"}) => {
   const w3 = "http://www.w3.org/2000/svg"
 
   const classes = {
@@ -30,7 +30,7 @@ const Icon = ({name}) => {
   }
 
   return (
-    <svg className={classes[name]} width="16" height="16" fill="#fff" viewBox="0 0 16 16" xmlns={w3}>
+    <svg className={classes[name]} width="16" height="16" fill={fill} viewBox="0 0 16 16" xmlns={w3}>
       {icons[name]}
     </svg>
   )

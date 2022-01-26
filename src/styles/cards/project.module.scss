@@ -3,13 +3,13 @@
   text-decoration: none;
   border-radius: 1rem;
   grid-template-columns: 1fr;
-  box-shadow: 0.1rem 0.1rem 0.2rem rgb(4, 184, 55);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--green-color);
 
   .contenedor {
     text-align: left;
     padding-left: var(--medium-space);
     padding-right: var(--medium-space);
-    background-color: rgb(13, 34, 7);
+    background-color: var(--bg-color-alt);
     padding-bottom: 1.5rem;
     border-radius: 0 0 1rem 1rem / 0 0 1rem 1rem;
   }

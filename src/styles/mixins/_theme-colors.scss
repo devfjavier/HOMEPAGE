@@ -1,0 +1,23 @@
+@mixin dark {
+  --primary-color: #031a03;
+  --primary-color-alt: #031a1aee;
+  --bg-color: #191f19;
+  --bg-color-alt: #161f16;
+  --green-color: #18d318;
+  --title-color: #fff;
+  --text-color: #afb5af;
+}
+
+@mixin light {
+  --primary-color: #fff;
+  --primary-color-alt: #031a1aee;
+  --bg-color: #efefef;
+  --bg-color-alt: #fff;
+  --green-color: #18d318;
+  --title-color: #060606;
+  --text-color: #494f49;
+}
+//color base con 9 shades y 9 tints:
+//#22E622 primario
+//#181A18 gris
+//#22e6e6 secundario

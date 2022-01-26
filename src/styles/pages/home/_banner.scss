@@ -5,58 +5,57 @@ SECCION BANNER PRINCIPAL
 */
 
 .banner-principal {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    height: inherit;
-    background-color: hsla(0deg, 0%, 0%, .19);
-    
-    @media screen and (min-width: 900px) {
-        background-image: linear-gradient(to right,black 40%, transparent 60%);
-        background-color: unset;
-        grid-template-columns: 45% 1fr;
-        grid-template-rows: 1fr;
-    }
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  height: inherit;
+  background-color: hsla(0deg, 0%, 0%, .19);
+  
+  @media screen and (min-width: 900px) {
+    background-image: linear-gradient(to right, black 45%, transparent 60%);
+    background-color: unset;
+    grid-template-columns: 45% 1fr;
+    grid-template-rows: 1fr;
+  }
 
-    .contenedor {
-        padding: calc(var(--big-space) * 2.7) var(--big-space);
-        text-align: center;
+  .contenedor {
+    padding: calc(var(--big-space) * 2.7) var(--big-space);
+    text-align: center;
+  }
+  
+  .titulo {
+    color: var(--green-color);
+    font-size: var(--h1-font-size);
+  }
+  
+  .texto {
+    color: var(--green-color);
+    font-size: var(--big-font-size);
+  }
+  
+  .contenedor-img {
+    position: absolute;
+    z-index: -9;
+    background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-color: hsla(120deg, 12%, 12%, .12);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width: 900px) {
+      position: relative;
     }
-    
-    .titulo {
-        color: var(--green-color);
-        font-size: var(--h1-font-size);
-    }
-    
-    .texto {
-        color: var(--green-color);
-        font-size: var(--big-font-size);
-    }
-    
-    .contenedor-img {
-        position: absolute;
-        z-index: -9;
-        background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-        background-color: hsla(120deg, 12%, 12%, .12);
-        background-blend-mode: overlay;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        background-color: hsla(120deg, 12%, 12%, .12);
-        @media screen and (min-width: 900px) {
-            position: relative;
-        }
-    }
-    
-    .boton-enlace {
-        color: var(--primary-color);
-        background-color: var(--green-color);
-        border-color: var(--green-color);
-        font-weight: 500;
-    }
+  }
+  
+  .boton-enlace {
+    color: #000;
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    font-weight: 500;
+  }
 }
 
 

@@ -7,17 +7,17 @@ const Services = () => {
       <h2 className="titulo">Nuestros servicios</h2>
       <div className="contenedor">
         <article className="servicio">
-          <span className="icono"><Icon name="cleanCode"/></span>
+          <span className="icono"><Icon name="cleanCode" fill="var(--title-color)"/></span>
           <h3 className="titulo">Servicio</h3>
           <p className="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, dolorem?</p>
         </article>
         <article className="servicio">
-          <span className="icono"><Icon name="fastDelivery"/></span>
+          <span className="icono"><Icon name="fastDelivery" fill="var(--title-color)"/></span>
           <h3 className="titulo">Servicio</h3>
           <p className="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, dolorem?</p>
         </article>
         <article className="servicio">
-          <span className="icono"><Icon name="communication"/></span>
+          <span className="icono"><Icon name="communication" fill="var(--title-color)"/></span>
           <h3 className="titulo">Servicio</h3>
           <p className="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, dolorem?</p>
         </article>

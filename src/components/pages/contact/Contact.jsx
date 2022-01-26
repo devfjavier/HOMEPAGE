@@ -13,14 +13,14 @@ const Contact = () => {
             <div>
               <h4 className="titulo">Telefono</h4>
               <p className="texto">
-                <span className="icono"><Icon name="whatsapp"/></span>
+                <span className="icono"><Icon name="whatsapp" fill="var(--title-color)"/></span>
                 <a className="enlace" href="tel:1234567890">(123) 456 - 789 - 0</a>
               </p>
             </div>
             <div>
               <h4 className="titulo">Correo electronico</h4>
               <p className="texto">
-                <span className="icono"><Icon name="email"/></span>
+                <span className="icono"><Icon name="email" fill="var(--title-color)"/></span>
                 <a className="enlace" href="mailto:contacto@loremipsun.com">contacto@loremipsun.com</a>
               </p>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
             <div>
               <h4 className="titulo">Direccion</h4>
               <p className="texto">
-                <span className="icono"><Icon name="address"/></span>
+                <span className="icono"><Icon name="address" fill="var(--title-color)"/></span>
                 <a className="enlace" href="https://www.google.com/maps/place/Groenlandia/@67.8825871,-73.8807304,3z/data=!3m1!4b1!4m5!3m4!1s0x4ea20dbbe3c07715:0x34cf9d830114e218!8m2!3d65.8747247!4d-46.1425781">Calle Falsa #123, Springfield, Óregon, Estados Unidos</a>
               </p>
             </div>
