@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import Icon from "../../svgs/Icon";
 
 const Header = () => {
@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <header className="cabecera-principal">
     <div className="contenedor">
-      <a className="logo-enlace" href="index.html"><img src="https://image.flaticon.com/icons/png/512/2251/2251538.png" alt=""/></a>
+      <Link to="/" className="logo-enlace">
+        <img src="https://image.flaticon.com/icons/png/512/2251/2251538.png" alt=""/>
+      </Link>
       <button ref={botonMenu} onClick={toggleMenu} className="boton-interruptor-menu">
         <Icon name="list"/>
         <Icon name="xLg"/>
