@@ -1,0 +1,24 @@
+.link {
+  text-decoration: none;
+  color: var(--title-color);
+  display: block;
+  padding-top: var(--big-space);
+  padding-bottom: var(--big-space);
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+  
+  &:hover {
+    background-color: rgba(97, 6, 187, 0.5);
+    color: var(--green-color);
+  }
+  
+  @media screen and (min-width: 900px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: var(--normal-font-size);
+    
+    &:hover {
+      background-color: initial;
+    }
+  }
+} 
