@@ -1,6 +1,6 @@
 {
-  "name": "proyecto-de-edsoft",
-  "homepage": "https://github.com/devfjavier/Proyecto-de-EDsoft/",
+  "name": "homepage",
+  "homepage": "https://github.com/devfjavier/HOMEPAGE/",
   "private": true,
   "scripts": {
     "deploy": "gh-pages -d dist",

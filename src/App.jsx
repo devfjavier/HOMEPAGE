@@ -9,7 +9,7 @@ import Projects from "./components/pages/projects/Projects"
 import Contact from "./components/pages/contact/Contact"
 
 const App = () => (
-  <BrowserRouter basename="/Proyecto-de-EDsoft">
+  <BrowserRouter basename="/HOMEPAGE">
     <Header/>
 
     <Routes>

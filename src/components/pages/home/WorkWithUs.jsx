@@ -4,7 +4,7 @@ const WorkWithUs = () => {
     <section className="trabaja-con-nosotros contenedor-seccion">
       <h2 className="titulo">¿Quieres trabajar con nosotros?</h2>
       <p className="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt?</p>
-      <a className="boton-enlace" href="mailto:contacto@edsoft.com">contacto@edsoft.com</a>
+      <a className="boton-enlace" href="mailto:contacto@homepage.com">contacto@homepage.com</a>
     </section>
   )
 }
